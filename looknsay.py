@@ -29,8 +29,5 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    print('Seed:', args.seed)
-    print('Iterations:', args.iterations)
-
     for step in compute(args.seed, args.iterations):
         print(step)
