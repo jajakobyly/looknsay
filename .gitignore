@@ -56,6 +56,20 @@ docs/_build/
 target/
 
 
+### Haskell ###
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virtualenv
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.config
+
+
 ### SublimeText ###
 # workspace files are user-specific
 *.sublime-workspace
